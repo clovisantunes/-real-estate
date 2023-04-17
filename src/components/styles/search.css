@@ -5,3 +5,51 @@
     margin-top: -20vh;
     opacity: 70%;
 }
+.style_form{
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    height: 4vh;
+    margin: 0% 2%;
+}
+#option_card{
+    width: 80%;
+    height: 6vh;
+    font-size: 2vh;
+
+}
+.style_code{
+width: 15%;
+}
+#code{
+    width: 100%;
+    height: 4vh;
+    font-size: 1.5vh;
+    font-weight: bold;
+}
+.search_container{
+    width: 10%;
+    margin-left: 2.5%;
+}
+.search_card{
+    background: rgb(34, 34, 54);
+    width: 100%;
+    height: 7vh;
+    opacity: 100%;
+    z-index: 1;
+    font-size: 3vh;
+    font-weight: bold;
+    color: white;
+    border-radius: 1vh;
+    border: none;
+}
+.buttons_container{
+    height: 2vh;
+}
+.buttons_card{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    
+    height: 2vh;
+}
