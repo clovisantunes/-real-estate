@@ -3,6 +3,8 @@
     height: 10vh;
     padding: 1vh;
     background: black;
+    position: fixed;
+    opacity: 70%;
 }
 .nav_items{
     display: flex;
@@ -19,6 +21,7 @@
     background: black;
     font-size: 3vh;
     margin: 0% 6% 0% 0%;
+    transition: all 2ms ease-out;
 }
 .button_card:hover{
     color: rgb(44, 255, 255);
