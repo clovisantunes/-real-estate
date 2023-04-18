@@ -11,6 +11,8 @@ const ListItems = [
      district: 'Amaral Ribeiro',
      cod: 'L2768',
      size: '78m²',
+     price:' Por R$ 2.000,00 ',
+     model: 'casa',
     },
     {
      img: house3,
@@ -19,6 +21,8 @@ const ListItems = [
      district: 'São Luiz',
      cod: 'R5874',
      size: '150m²',
+     price:'  Por R$ 2.500,00 ',
+     model: 'casa',
     },
     {
      img: house4,
@@ -27,6 +31,8 @@ const ListItems = [
      district: 'Feitoria',
      cod: 'L4569',
      size: '128m²',
+     price:' Por R$ 1.500,00 ',
+     model: 'casa',
     },
     {
      img: house2,
@@ -35,6 +41,8 @@ const ListItems = [
      district: 'Estação',
      cod: 'G9852',
      size: '120m²',
+     price:'  Por R$ 312.000,00 ',
+     model: 'casa',
     },
  
 ]

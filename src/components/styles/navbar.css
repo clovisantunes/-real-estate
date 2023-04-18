@@ -5,6 +5,7 @@
     background: black;
     position: fixed;
     opacity: 70%;
+    z-index: 1;
 }
 .nav_items{
     display: flex;

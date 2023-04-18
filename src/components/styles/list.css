@@ -12,11 +12,34 @@
 .img_card{
     width: 100%;
     height: 100%;
-
+    position: relative;
 }
 .img_card img{
     width: 100%;
     height: 100%;
+}
+.model{
+    display: flex;
+    justify-content: center;
+    margin: -98% 0% 0% 30% ;
+    color: white;
+    width: 48%;
+    height: 3.3vh;
+    background: black;
+    position: absolute;
+    clip-path: polygon(90% 100%, 10% 100%, 0px 0px, 100% 0px);
+}
+.price{
+    display: flex;
+    justify-content: center;
+    margin: -7% 0% 0% 30% ;
+    color: white;
+    width: 48%;
+    height: 3.3vh;
+    background: #39666b;
+    position: absolute;
+    clip-path: polygon(0px 100%, 100% 100%, 90% 0px, 10% 0px);
+    
 }
 .information_container{
     width: 250vh;
