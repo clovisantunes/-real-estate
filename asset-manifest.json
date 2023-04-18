@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/site_de_imoveis/static/css/main.24765bc3.css",
+    "main.js": "/site_de_imoveis/static/js/main.863d98b7.js",
+    "static/media/imagem_corretor.jpg": "/site_de_imoveis/static/media/imagem_corretor.166173d0bdb8afc33fe3.jpg",
+    "index.html": "/site_de_imoveis/index.html",
+    "main.24765bc3.css.map": "/site_de_imoveis/static/css/main.24765bc3.css.map",
+    "main.863d98b7.js.map": "/site_de_imoveis/static/js/main.863d98b7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24765bc3.css",
+    "static/js/main.863d98b7.js"
+  ]
+}
