@@ -7,6 +7,7 @@
     margin-left: 15%;
     height: 50vh;
     border: solid 1px black;
+     max-width: 1200px;
 }
 
 .img_card{
@@ -17,11 +18,18 @@
 .img_card img{
     width: 100%;
     height: 100%;
+    position: absolute;
+}
+.card_box{
+    width: 100%;
+    height: 100%;
 }
 .model{
     display: flex;
     justify-content: center;
-    margin: -98% 0% 0% 30% ;
+    top:0%;
+    left: 25%;
+    z-index: 1;
     color: white;
     width: 48%;
     height: 3.3vh;
@@ -32,13 +40,15 @@
 .price{
     display: flex;
     justify-content: center;
-    margin: -7% 0% 0% 30% ;
+    left: 25%;
+    bottom: 0%;
     color: white;
-    width: 48%;
+    width: 55%;
     height: 3.3vh;
     background: #39666b;
     position: absolute;
     clip-path: polygon(0px 100%, 100% 100%, 90% 0px, 10% 0px);
+    z-index: 1;
     
 }
 .information_container{
@@ -85,4 +95,20 @@
 }
 .size_card p {
     color: black;
+}
+.button_details{
+    display: flex;
+    justify-content: center;
+   
+}
+.button_box{
+    width: 15vh;
+    height: 5vh;
+    padding-top: 1vh;
+    border-radius: 0.5vh;
+    display: flex;
+    font-size: 3vh;
+    justify-content: center;
+    color: white;
+    background: black;
 }

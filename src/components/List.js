@@ -5,9 +5,13 @@ function List(props) {
   return (
     <div className="list_box">
       <div className="img_card">
-        <img src={props.img} />
+        <div className="card_box">
         <h2 className="model">{props.model}</h2>
         <h2 className="price">{props.price}</h2>
+        <img src={props.img} />
+        </div>
+        
+        
       </div>
       <div className="information_container">
         <div className="type_card">{props.type}</div>
@@ -25,7 +29,11 @@ function List(props) {
             Área
             <p>{props.size}</p>
           </div>
+          
         </div>
+        <div className="button_details">
+            <buton className="button_box">Detalhe</buton>
+          </div>
       </div>
     </div>
   );

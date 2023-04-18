@@ -2,20 +2,42 @@
     background-image: url(../img/imagem_corretor.jpg);
     width: 100%;
     height: 70vh;
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-}
-.display_text{
+    align-items: center;
+  }
+  .display_text{
     color: white;
     font-size: 5vh;
-    margin-top: 15%;
-}
-.list_class{
+    text-align: center;
+    margin-bottom: 3vh;
+  }
+  .list_class{
     display: flex;
-    flex-direction: row;
-    margin-top: 3.5%;
-    justify-content: center;
-    
-}
+    flex-direction: column;
+    color: white;
+    font-size: 2vh;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .list_class li {
+    margin: 1vh;
+  }
+  @media (min-width: 768px) {
+    .display_container {
+      height: 50vh;
+    }
+    .display_text {
+      font-size: 7vh;
+      margin-bottom: 4vh;
+    }
+    .list_class {
+      flex-direction: row;
+      font-size: 3vh;
+    }
+  }
+  
