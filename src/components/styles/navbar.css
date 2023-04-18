@@ -14,7 +14,7 @@
     margin-top: 2vh;
 }
 .button_card{
-    width: 20vh;
+    width: 25vh;
     height: 5vh;
     border: none;
     color: white;
@@ -42,3 +42,7 @@
     background-size: 100%;
     background-position: 5%;
 }
+@media screen and (max-width: 768px) {
+
+}
+

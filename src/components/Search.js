@@ -41,7 +41,7 @@ function Search () {
           </div>
           <div class="style_form">
             <select class="ls-label col-md-8" id="option_card">
-              <option value="imovel">Vagas para carro</option>
+              <option value="imovel">Vagas</option>
               <option value="imovel">Sim</option>
               <option value="imovel">Não</option>
             </select>
@@ -60,10 +60,10 @@ function Search () {
             <input
               type="text"
               id="code"
-              placeholder="Digite o codigo do imovel"
+              placeholder="Codigo"
             />
           </div>
-          <div class="search_container">
+          <div class="search_button">
             <a href="#">
               <button type="submit" class="search_card">🔍Buscar</button>
             </a>
