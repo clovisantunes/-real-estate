@@ -1,13 +1,15 @@
 import React from "react";
 import './styles/navbar.css';
+import { useNavigate } from "react-router-dom";
 
 function Navbar () {
+    const Navigate = useNavigate();
     return (
         <div className="nav_container">
             <nav className="navbar_card">
                 <li className="nav_items">
                     <ul>
-                        <button className="button_card">
+                        <button className="button_card" onClick={() => Navigate("/site_de_imoveis/venda")}>
                             Comprar
                         </button>
                     </ul>
@@ -21,8 +23,8 @@ function Navbar () {
                             Condominio
                         </button>
                     </ul>
-                    <div className="logo_container">
-                    <div className="logo_card" />
+                    <div className="logo_container" onClick={()=> Navigate("/site_de_imoveis/")}>
+                    <div className="logo_card"  />
                     </div>
                     <ul>
                     <button className="button_card">
