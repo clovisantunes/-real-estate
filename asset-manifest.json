@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/site_de_imoveis/static/css/main.0e10e64c.css",
-    "main.js": "/site_de_imoveis/static/js/main.7ac6f369.js",
+    "main.js": "/site_de_imoveis/static/js/main.927b3b0d.js",
     "static/media/imagem_corretor.jpg": "/site_de_imoveis/static/media/imagem_corretor.166173d0bdb8afc33fe3.jpg",
     "index.html": "/site_de_imoveis/index.html",
     "main.0e10e64c.css.map": "/site_de_imoveis/static/css/main.0e10e64c.css.map",
-    "main.7ac6f369.js.map": "/site_de_imoveis/static/js/main.7ac6f369.js.map"
+    "main.927b3b0d.js.map": "/site_de_imoveis/static/js/main.927b3b0d.js.map"
   },
   "entrypoints": [
     "static/css/main.0e10e64c.css",
-    "static/js/main.7ac6f369.js"
+    "static/js/main.927b3b0d.js"
   ]
 }
